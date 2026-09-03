@@ -1,630 +1,582 @@
-# 💜 NEXTLIFE DEVELOPMENT
+# NEXTLIFE DEVELOPMENT
 
 <p align="center">
-  <img src="https://img.shields.io/badge/NEXTLIFE-DEVELOPMENT-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="NextLife Development">
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE-00C853?style=for-the-badge" alt="Status">
-  <img src="https://img.shields.io/badge/FOCUS-FIVEM%20%7C%20WEB%20%7C%20DISCORD-7C4DFF?style=for-the-badge" alt="Focus">
-  <img src="https://img.shields.io/badge/ENGINEERING-NEXT%20GEN-FF4081?style=for-the-badge" alt="Engineering">
+  <img src="https://img.shields.io/badge/NEXTLIFE-DEVELOPMENT-8A2BE2?style=for-the-badge&logo=github&logoColor=white">
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-00C853?style=for-the-badge">
+  <img src="https://img.shields.io/badge/ENGINEERING-SYSTEMS-6C63FF?style=for-the-badge">
+  <img src="https://img.shields.io/badge/FOCUS-DEVELOPMENT-9C27B0?style=for-the-badge">
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=8A2BE2&height=200&section=header&text=NEXTLIFE%20DEVELOPMENT&fontSize=44&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Engineering%20the%20next%20generation%20of%20digital%20experiences&descAlignY=60&descSize=16" width="100%">
+  <strong>SOFTWARE • SYSTEMS • INFRASTRUCTURE • ENGINEERING</strong>
 </p>
 
 <p align="center">
-  <strong>🚀 WE DON'T JUST WRITE SCRIPTS.</strong><br>
-  <strong>💜 WE BUILD SYSTEMS THAT DEFINE EXPERIENCES.</strong>
-</p>
-
-<p align="center">
-  FiveM Development • Software Engineering • Web • Discord • Infrastructure • Security • Automation
+  <sub>Designing, developing and maintaining scalable digital systems.</sub>
 </p>
 
 ---
 
-# 🌌 WHO WE ARE
+## `01` — DEVELOPMENT
 
-**NextLife Development** ist die technische Development-Plattform hinter den digitalen Projekten und Systemen von **NextLife**.
+**NextLife Development** is the engineering division behind the technical ecosystem of NextLife.
 
-Unser Schwerpunkt liegt auf der Entwicklung von **performance-orientierten FiveM-Systemen, modernen Web-Technologien, Discord-Integrationen, Backend-Systemen und stabiler Server-Infrastruktur**.
+We design and build software, game systems, web applications, APIs, automation, infrastructure and developer tooling.
 
-Dabei verbinden wir:
+Our development process focuses on:
 
 ```text
-🎮 FiveM
-   +
-💻 Software Engineering
-   +
-🌐 Web Development
-   +
-🤖 Discord & Automation
-   +
-🗄️ Databases
-   +
-🔐 Security
-   +
-⚡ Performance
-   =
-💜 NEXTLIFE DEVELOPMENT
+ARCHITECTURE
+     ↓
+IMPLEMENTATION
+     ↓
+TESTING
+     ↓
+SECURITY
+     ↓
+OPTIMIZATION
+     ↓
+DEPLOYMENT
+     ↓
+MONITORING
+     ↓
+ITERATION
 ```
 
-Wir entwickeln Systeme nicht einfach, damit sie funktionieren.
+The goal is not simply to make software work.
 
-Wir entwickeln sie so, dass sie **performant, sicher, modular, erweiterbar und langfristig wartbar** bleiben.
-
----
-
-# 🎮 OUR CORE
-
-FiveM ist einer unserer wichtigsten Entwicklungsbereiche.
-
-Von einzelnen Resources bis hin zu vollständigen Systemarchitekturen entwickeln wir Lösungen für moderne Roleplay-Server.
-
-### Unser Fokus:
-
-* 🎮 FiveM Development
-* 🌙 Lua Development
-* 🧩 ESX Integration
-* ⚙️ QBCore Integration
-* 🗄️ MySQL / MariaDB
-* 🖥️ NUI Development
-* 🔐 Server-Side Validation
-* 🛡️ Anti-Exploit Systems
-* ⚡ Performance Optimization
-* 🏗️ Server Architecture
+The goal is to make software **maintainable, reliable, secure and scalable**.
 
 ---
 
-# 🧠 ENGINEERING PHILOSOPHY
+## `02` — ENGINEERING
 
-```text
-                    💡 IDEA
-                      │
-                      ▼
-               🧠 ARCHITECTURE
-                      │
-                      ▼
-                  💻 BUILD
-                      │
-                      ▼
-                   🧪 TEST
-                      │
-                      ▼
-                  🔍 REVIEW
-                      │
-                      ▼
-                  🔐 SECURE
-                      │
-                      ▼
-                  ⚡ OPTIMIZE
-                      │
-                      ▼
-                  🚀 DEPLOY
-                      │
-                      ▼
-                 📊 MONITOR
-                      │
-                      ▼
-                 🔄 IMPROVE
-                      │
-                      └──────────────► ♾️
-```
-
-### **Architecture before implementation.**
-
-Wir versuchen nicht, Probleme mit immer mehr Code zu lösen.
-
-Wir lösen sie mit **sauberer Architektur**.
-
----
-
-# 🛡️ SECURITY FIRST
-
-Security ist kein optionales Feature.
-
-Security ist Bestandteil der Architektur.
-
-Unsere Systeme setzen unter anderem auf:
-
-* 🔐 Server-Side Validation
-* 🚫 Kein blindes Client-Trust
-* 🛡️ Event Validation
-* 🔎 Exploit Detection
-* 📡 Sichere Datenflüsse
-* 🔒 Access Control
-* 🧠 Anti-Exploit Thinking
-* 📊 Violation Tracking
-
-```text
-CLIENT
-  │
-  │ Request
-  ▼
-┌──────────────────────┐
-│ SERVER VALIDATION    │
-│                      │
-│ ✓ Permission         │
-│ ✓ Data               │
-│ ✓ Player State       │
-│ ✓ Event Validation   │
-│ ✓ Exploit Checks     │
-└──────────┬───────────┘
-           │
-           ▼
-      🗄️ DATABASE
-```
-
-### **Never trust the client.**
-
----
-
-# ⚡ PERFORMANCE ENGINEERING
-
-Performance wird nicht erst dann wichtig, wenn ein Server Probleme bekommt.
-
-Sie wird **während der Entwicklung** berücksichtigt.
-
-Wir achten unter anderem auf:
-
-* ⚡ Optimierte Loops
-* 🧵 Effiziente Threads
-* 📉 Minimalen Resource Usage
-* 🗄️ Optimierte SQL Queries
-* 📊 Datenbank-Indizes
-* 🔄 Effiziente Event-Strukturen
-* 🧩 Modulare Resources
-* 📈 Skalierbarkeit
-
-Unser Ziel:
-
-> **More players. More systems. Same stability.**
-
----
-
-# 🧩 WHAT WE BUILD
+Our engineering work is built around several core areas.
 
 <table>
 <tr>
+<td width="33%" valign="top">
 
-<td width="50%" valign="top">
+### SOFTWARE
 
-## 🎮 FIVEM SYSTEMS
+Application development, backend systems and developer tooling.
 
-* 💸 Economy Systems
-* 💍 Social / Marriage Systems
-* 🎒 Inventory Systems
-* 📻 Radio Systems
-* 🚗 Garage Systems
-* 🎣 Job & Minigame Systems
-* ♻️ Economy Jobs
-* 🛡️ Anti-Cheat Systems
-* 📑 Administration Systems
-* 🖥️ HUD Systems
-* 🔄 Server Integrations
+* JavaScript
+* TypeScript
+* Python
+* Node.js
+* REST APIs
+* WebSockets
+* Automation
 
 </td>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-## 🌐 WEB & NUI
+### GAME SYSTEMS
 
-* 🌐 Web Applications
-* 🖥️ NUI Interfaces
-* 📊 Dashboards
-* 🎨 Custom UI
-* 🔌 REST APIs
-* ⚡ Real-Time Systems
-* 🔑 Authentication
-* 📱 Responsive Interfaces
-* 🎬 Cinematic Interfaces
+Server-side systems and resources for modern FiveM environments.
 
-</td>
-
-</tr>
-
-<tr>
-
-<td width="50%" valign="top">
-
-## 🤖 DISCORD & AUTOMATION
-
-* 🤖 Discord Bots
-* 🔗 FiveM ↔ Discord
-* 🔔 Notifications
-* 📊 Server Monitoring
-* 🎫 Ticket Systems
-* 🚨 Alerts
-* ⚙️ Automated Workflows
-* 🔄 GitHub Integrations
+* Lua
+* FiveM
+* ESX
+* QBCore
+* NUI
+* Server Architecture
+* Resource Development
 
 </td>
 
-<td width="50%" valign="top">
+<td width="33%" valign="top">
 
-## ⚙️ BACKEND & INFRASTRUCTURE
+### INFRASTRUCTURE
 
-* 🐧 Linux
-* 🗄️ MySQL
-* 🗃️ MariaDB
-* 🐍 Python
-* 🟢 Node.js
-* 🔌 APIs
-* 📦 Deployment
-* 📊 Monitoring
-* 🔐 Server Security
+The infrastructure required to operate reliable systems.
+
+* Linux
+* MySQL
+* MariaDB
+* Git
+* GitHub
+* CI/CD
+* Monitoring
 
 </td>
-
 </tr>
 </table>
 
 ---
 
-# 🔥 NEXTLIFE PROJECT LAB
+## `03` — SYSTEM ARCHITECTURE
 
-Ein Teil unserer Entwicklung befindet sich permanent in **Beta, Testing oder aktiver Weiterentwicklung**.
+We design systems as independent, maintainable components rather than isolated scripts.
 
-## 🎮 FiveM Systems
+```text
+                         ┌───────────────────┐
+                         │      CLIENT       │
+                         └─────────┬─────────┘
+                                   │
+                                   ▼
+                         ┌───────────────────┐
+                         │    APPLICATION    │
+                         │      LAYER        │
+                         └─────────┬─────────┘
+                                   │
+                    ┌──────────────┼──────────────┐
+                    │              │              │
+                    ▼              ▼              ▼
+               ┌─────────┐   ┌─────────┐   ┌─────────┐
+               │  API    │   │ EVENTS  │   │ SERVICES│
+               └────┬────┘   └────┬────┘   └────┬────┘
+                    │             │              │
+                    └─────────────┼──────────────┘
+                                  ▼
+                         ┌───────────────────┐
+                         │     DATABASE      │
+                         │   MySQL / MariaDB │
+                         └───────────────────┘
+```
 
-| System                 | Technology           | Status         |
-| ---------------------- | -------------------- | -------------- |
-| 💸 Geldwäsche V3       | Lua • ESX • NUI      | 🟣 Beta        |
-| 💍 Marriage System     | Lua • ESX • NUI      | 🟣 Beta        |
-| 🎒 Inventory System    | Lua • ESX • NUI      | 🟣 Beta        |
-| 📑 Report System       | Lua • ESX • NUI      | 🟣 Beta        |
-| 📻 Radio System        | Lua • ESX • VoIP     | 🟣 Beta        |
-| ♻️ Schrottplatz System | Lua • ESX            | 🟣 Beta        |
-| 🖥️ HUD System         | Lua • ESX • NUI      | 🟣 Beta        |
-| 🛡️ Anticheat System   | Lua • NUI            | 🟣 Beta        |
-| 🚗 Garage System       | Lua • MySQL • NUI    | 🟢 Development |
-| 🎣 Fishing System      | Lua • NUI • Minigame | 🟢 Development |
+### Design principles
+
+**Modularity**
+Systems are separated into logical components.
+
+**Separation of concerns**
+Each component has a defined responsibility.
+
+**Server authority**
+Critical operations are validated server-side.
+
+**Scalability**
+Systems are designed to grow with their requirements.
+
+**Maintainability**
+Code should remain understandable months after implementation.
 
 ---
 
-# 📱 NEXT-GEN PHONE APPS
+## `04` — SECURITY
 
-Wir entwickeln nicht nur klassische FiveM Resources.
-
-Auch **komplexe Phone-Apps und digitale Interfaces** gehören zu unserem Development-Ökosystem.
-
-### ▶ TubeApp
+Security is treated as an architectural requirement.
 
 ```text
-📱 lb-phone
+CLIENT REQUEST
       │
       ▼
-┌─────────────────────┐
-│       TubeApp       │
-├─────────────────────┤
-│ 🎬 Video Feed       │
-│ ⚡ Shorts            │
-│ 🔎 Search            │
-│ 🔔 Subscriptions    │
-│ 📚 Library           │
-│ ▶️ Mini Player       │
-└─────────────────────┘
+┌───────────────────────┐
+│ INPUT VALIDATION      │
+├───────────────────────┤
+│ PERMISSION CHECK      │
+├───────────────────────┤
+│ STATE VALIDATION      │
+├───────────────────────┤
+│ EVENT VALIDATION      │
+├───────────────────────┤
+│ BUSINESS LOGIC        │
+└───────────┬───────────┘
+            │
+            ▼
+       DATABASE
 ```
 
-Eine vollständig integrierte Video-Plattform als **lb-phone Application**.
+We avoid unnecessary trust boundaries and validate sensitive operations where they actually matter.
+
+### Security focus
+
+* Server-side validation
+* Permission systems
+* Event validation
+* Authentication
+* Access control
+* Secure APIs
+* Exploit prevention
+* Infrastructure security
 
 ---
 
-### 🎵 MusicApp
+## `05` — PERFORMANCE
+
+Performance is considered during implementation — not after production problems occur.
+
+We optimize:
 
 ```text
-📱 lb-phone
+RESOURCE USAGE
       │
-      ▼
-┌─────────────────────┐
-│      MusicApp       │
-├─────────────────────┤
-│ 🔐 Spotify Login    │
-│ 🎵 Music            │
-│ 📚 Playlists        │
-│ ▶️ Full Player      │
-│ 🔀 Shuffle           │
-│ 🔁 Repeat            │
-│ 📋 Queue             │
-└─────────────────────┘
+      ├── CPU
+      ├── MEMORY
+      ├── NETWORK
+      ├── DATABASE
+      └── EVENT LOAD
 ```
 
-Eine moderne Music Experience mit **Spotify Web API Integration**.
+### Performance engineering
+
+* Efficient execution loops
+* Optimized event handling
+* Database optimization
+* Query optimization
+* Resource profiling
+* Memory-conscious systems
+* Minimal unnecessary processing
+* Scalable architecture
 
 ---
 
-# 🧬 OUR DEVELOPMENT DNA
+## `06` — DEVELOPMENT STACK
+
+### Languages
 
 ```text
-                 💜 NEXTLIFE
-                     │
-       ┌─────────────┼─────────────┐
-       ▼             ▼             ▼
-   🎮 GAMING     💻 SOFTWARE    🌐 WEB
-       │             │             │
-       └─────────────┼─────────────┘
-                     ▼
-                🧠 ENGINEERING
-                     │
-          ┌──────────┼──────────┐
-          ▼          ▼          ▼
-       🔐 SECURITY  ⚡ SPEED   🧩 SCALE
-          │          │          │
-          └──────────┼──────────┘
-                     ▼
-                  🚀 SHIP
-                     │
-                     ▼
-                  ♾️ EVOLVE
+JavaScript     TypeScript
+Python         Lua
+SQL            Bash
+HTML           CSS
 ```
 
----
-
-# 📐 OUR PRINCIPLES
-
-### 01 — 🧹 CLEAN CODE
-
-Keine unnötige Komplexität.
-
-Code muss verständlich, strukturiert und wartbar bleiben.
-
-### 02 — 🔐 SERVER-SIDE FIRST
-
-Der Client entscheidet nicht über kritische Aktionen.
-
-Validierung gehört auf den Server.
-
-### 03 — ⚡ PERFORMANCE
-
-Jede Resource verbraucht Ressourcen.
-
-Unser Ziel ist, diesen Verbrauch so gering wie sinnvoll zu halten.
-
-### 04 — 🧩 MODULARITY
-
-Systeme werden in klar getrennte Komponenten aufgeteilt.
-
-Erweiterungen sollen möglich sein, ohne das komplette System neu zu schreiben.
-
-### 05 — 🗄️ DATABASE ENGINEERING
-
-Datenbanken sind ein Bestandteil der Systemarchitektur.
-
-Queries, Indizes und Datenstrukturen werden auf Skalierbarkeit ausgelegt.
-
-### 06 — 🧪 TESTING
-
-Fehler werden nicht erst nach dem Release gesucht.
-
-Testing beginnt während der Entwicklung.
-
-### 07 — 📚 DOCUMENTATION
-
-Guter Code erklärt sich teilweise selbst.
-
-Komplexe Logik wird zusätzlich dokumentiert.
-
-### 08 — 🔄 CONTINUOUS DEVELOPMENT
-
-Release bedeutet nicht Ende.
-
-Release bedeutet:
-
-**Start der nächsten Entwicklungsphase.**
-
----
-
-# 💻 TECHNOLOGY STACK
-
-### 🎮 FiveM
-
-<p>
-<img src="https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white">
-<img src="https://img.shields.io/badge/ESX-8A2BE2?style=for-the-badge">
-<img src="https://img.shields.io/badge/QBCore-7C4DFF?style=for-the-badge">
-<img src="https://img.shields.io/badge/FiveM-F40552?style=for-the-badge">
-<img src="https://img.shields.io/badge/NUI-FF4081?style=for-the-badge">
-</p>
-
-### 🌐 Web
-
-<p>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
-</p>
-
-### 🧠 Backend
-
-<p>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white">
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-<img src="https://img.shields.io/badge/REST%20API-000000?style=for-the-badge">
-<img src="https://img.shields.io/badge/WebSockets-7C4DFF?style=for-the-badge">
-</p>
-
-### 🗄️ Database
-
-<p>
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-<img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white">
-</p>
-
-### ⚙️ Infrastructure
-
-<p>
-<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black">
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white">
-<img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white">
-</p>
-
----
-
-# 🔄 DEVELOPMENT WORKFLOW
+### Runtime & Backend
 
 ```text
-┌─────────────────────────────────────────────┐
-│                  💡 IDEA                    │
-└──────────────────────┬──────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────┐
-│                📋 REQUIREMENTS               │
-└──────────────────────┬──────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────┐
-│              🧠 ARCHITECTURE                │
-└──────────────────────┬──────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────┐
-│                 💻 BUILD                    │
-└──────────────────────┬──────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────┐
-│              🧪 TEST & EXPLOIT              │
-│                  CHECKS                     │
-└──────────────────────┬──────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────┐
-│                🔍 REVIEW                   │
-└──────────────────────┬──────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────┐
-│                🚀 RELEASE                  │
-└──────────────────────┬──────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────┐
-│               📊 MONITOR                   │
-└──────────────────────┬──────────────────────┘
-                       ▼
-┌─────────────────────────────────────────────┐
-│               🔄 IMPROVE                   │
-└──────────────────────┬──────────────────────┘
-                       │
-                       └──────────────► ♾️
+Node.js        REST
+WebSockets     APIs
+Microservices  Automation
+```
+
+### Databases
+
+```text
+MySQL
+MariaDB
+PostgreSQL
+Redis
+```
+
+### Infrastructure
+
+```text
+Linux
+Docker
+Git
+GitHub
+CI/CD
+Server Management
+Monitoring
+```
+
+### Platforms
+
+```text
+FiveM
+Discord
+GitHub
+Web
+lb-phone
 ```
 
 ---
 
-# 🌐 THE NEXTLIFE ECOSYSTEM
+## `07` — DEVELOPMENT DOMAINS
 
 ```text
-                           💜 NEXTLIFE
-                               │
-        ┌──────────────────────┼──────────────────────┐
-        │                      │                      │
-        ▼                      ▼                      ▼
-   🎮 GAMING              💻 SOFTWARE              🌐 WEB
-        │                      │                      │
-        │                      │                      │
-        └──────────────┬───────┴───────┬──────────────┘
-                       │               │
-                       ▼               ▼
-                  🤖 AUTOMATION    ⚙️ INFRASTRUCTURE
-                       │               │
-                       └───────┬───────┘
-                               ▼
-                         🔐 SECURITY
-                               │
-                               ▼
-                         🚀 NEXTLIFE
+NEXTLIFE DEVELOPMENT
+│
+├── SOFTWARE
+│   ├── Backend
+│   ├── APIs
+│   ├── Applications
+│   └── Developer Tools
+│
+├── GAME DEVELOPMENT
+│   ├── FiveM
+│   ├── Resources
+│   ├── Framework Integration
+│   ├── NUI
+│   └── Server Systems
+│
+├── WEB
+│   ├── Applications
+│   ├── Dashboards
+│   ├── Interfaces
+│   └── APIs
+│
+├── AUTOMATION
+│   ├── Discord
+│   ├── GitHub
+│   ├── CI/CD
+│   └── Workflows
+│
+├── INFRASTRUCTURE
+│   ├── Linux
+│   ├── Servers
+│   ├── Databases
+│   └── Monitoring
+│
+└── SECURITY
+    ├── Authentication
+    ├── Authorization
+    ├── Validation
+    └── Infrastructure
 ```
-
-Unsere Systeme sollen nicht isoliert existieren.
-
-Sie sollen miteinander kommunizieren.
-
-**FiveM ↔ Discord ↔ Web ↔ APIs ↔ Database ↔ Infrastructure**
 
 ---
 
-# 📊 DEVELOPMENT STATUS
+## `08` — CURRENT DEVELOPMENT
+
+Development at NextLife covers a growing ecosystem of independent systems and applications.
+
+### FiveM
 
 ```text
-╔══════════════════════════════════════════════╗
-║              NEXTLIFE DEVELOPMENT            ║
-╠══════════════════════════════════════════════╣
-║                                              ║
-║  🎮 FiveM Development          ██████████    ║
-║  🌐 Web Development            ████████░░    ║
-║  🤖 Discord Systems            ████████░░    ║
-║  🔐 Security                   █████████░    ║
-║  ⚡ Performance Engineering    █████████░    ║
-║  🧠 Infrastructure             ████████░░    ║
-║                                              ║
-╚══════════════════════════════════════════════╝
+Geldwäsche System
+Marriage System
+Inventory System
+Report System
+Radio System
+Schrottplatz System
+HUD System
+Anti-Cheat System
+Garage System
+Fishing System
 ```
 
-> **Currently building. Constantly improving.**
+### Applications
+
+```text
+TubeApp
+MusicApp
+Web Applications
+Administration Interfaces
+Developer Dashboards
+```
+
+### Integrations
+
+```text
+Discord
+GitHub
+FiveM
+MySQL
+REST APIs
+External Services
+```
 
 ---
 
-# 🚀 OUR VISION
+## `09` — DEVELOPMENT WORKFLOW
 
-NextLife Development soll mehr sein als eine Sammlung einzelner Scripts.
-
-Wir wollen ein **eigenes digitales Ökosystem** aufbauen.
-
-Ein Ökosystem, in dem:
+Every project follows a structured development lifecycle.
 
 ```text
-🎮 Gaming
+┌──────────────┐
+│ REQUIREMENTS │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ ARCHITECTURE │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ DEVELOPMENT  │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    TESTING   │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ SECURITY     │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ CODE REVIEW  │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    BUILD     │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   RELEASE    │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   MONITOR    │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ OPTIMIZATION │
+└──────┬───────┘
+       │
+       └───────────────→ NEXT ITERATION
+```
+
+---
+
+## `10` — CODE QUALITY
+
+We value code that can be understood, tested and extended.
+
+```text
+READABLE
    +
-💻 Software
+MODULAR
    +
-🌐 Web
+TESTABLE
    +
-🤖 Automation
+SECURE
    +
-🔐 Security
+PERFORMANT
    +
-⚙️ Infrastructure
+DOCUMENTED
    =
-💜 NEXTLIFE
+MAINTAINABLE
 ```
 
-Dabei verfolgen wir eine klare Richtung:
+### Engineering standards
 
-### **Build what doesn't exist.**
-
-### **Improve what does.**
-
-### **Create what's next.**
+* Clean Code
+* Consistent structure
+* Clear naming
+* Modular systems
+* Defensive programming
+* Documentation
+* Version control
+* Code review
+* Automated workflows
 
 ---
 
-# 💜 NEXTLIFE DEVELOPMENT
+## `11` — GITHUB
+
+GitHub is an essential part of our development infrastructure.
+
+We use GitHub for:
 
 ```text
-╔══════════════════════════════════════════════════╗
-║                                                  ║
-║                  💜 NEXTLIFE                     ║
-║                 DEVELOPMENT                     ║
-║                                                  ║
-║       🎮 BUILD          💻 ENGINEER             ║
-║                                                  ║
-║       ⚡ OPTIMIZE       🔐 SECURE               ║
-║                                                  ║
-║       🌐 CONNECT        🤖 AUTOMATE             ║
-║                                                  ║
-║       🚀 DEPLOY        📈 SCALE                 ║
-║                                                  ║
-║       🔄 IMPROVE       ♾️ EVOLVE                ║
-║                                                  ║
-╚══════════════════════════════════════════════════╝
+SOURCE CONTROL
+REPOSITORIES
+BRANCHES
+PULL REQUESTS
+ISSUES
+CODE REVIEWS
+RELEASES
+GITHUB ACTIONS
+CI/CD
+DOCUMENTATION
+SECURITY
+```
+
+Our repositories are organized around maintainability, traceability and controlled development.
+
+---
+
+## `12` — INFRASTRUCTURE
+
+Software is only as reliable as the infrastructure running it.
+
+Our infrastructure work includes:
+
+```text
+LINUX
+   │
+   ├── SERVER MANAGEMENT
+   ├── SERVICE MANAGEMENT
+   ├── DEPLOYMENT
+   ├── DATABASES
+   ├── MONITORING
+   ├── LOGGING
+   └── SECURITY
+```
+
+Infrastructure is treated as part of the product — not as an afterthought.
+
+---
+
+## `13` — PROJECT PHILOSOPHY
+
+We don't build systems simply to increase the number of projects.
+
+We build systems because they solve problems.
+
+```text
+PROBLEM
+   ↓
+ANALYZE
+   ↓
+DESIGN
+   ↓
+ENGINEER
+   ↓
+VALIDATE
+   ↓
+DEPLOY
+   ↓
+IMPROVE
+```
+
+Every project should have a purpose.
+
+Every component should have a reason.
+
+Every dependency should be intentional.
+
+---
+
+## `14` — VISION
+
+NextLife Development is building an ecosystem where:
+
+```text
+SOFTWARE
+     │
+     ├──────────────┐
+     │              │
+     ▼              ▼
+   GAMING          WEB
+     │              │
+     └──────┬───────┘
+            ▼
+       INTEGRATIONS
+            │
+            ▼
+       INFRASTRUCTURE
+            │
+            ▼
+         SECURITY
+            │
+            ▼
+        NEXTLIFE
+```
+
+The long-term goal is to create **connected, maintainable and scalable digital systems** rather than isolated projects.
+
+---
+
+## `15` — NEXTLIFE DEVELOPMENT
+
+```text
+┌────────────────────────────────────────────────────┐
+│                                                    │
+│                 NEXTLIFE DEVELOPMENT               │
+│                                                    │
+│        SOFTWARE  ·  SYSTEMS  ·  ENGINEERING        │
+│                                                    │
+│        GAME      ·  WEB      ·  INFRASTRUCTURE     │
+│                                                    │
+│        SECURITY  ·  AUTOMATION  ·  APIs            │
+│                                                    │
+└────────────────────────────────────────────────────┘
 ```
 
 <p align="center">
-  <strong>🚀 BUILDING THE NEXT GENERATION OF DIGITAL EXPERIENCES.</strong>
+  <strong>ENGINEER. BUILD. DEPLOY. IMPROVE.</strong>
 </p>
 
 <p align="center">
-  <strong>💜 NEXTLIFE DEVELOPMENT</strong>
+  <sub>NextLife Development · Software Engineering & Digital Systems</sub>
 </p>
 
 <p align="center">
-  <sub>FiveM • Software • Web • Discord • Security • Infrastructure</sub>
-</p>
-
-<p align="center">
-  <sub>© 2026 NextLife Development • All Rights Reserved</sub>
+  <sub>© 2026 NextLife Development</sub>
 </p>
