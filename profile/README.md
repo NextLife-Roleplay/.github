@@ -725,6 +725,69 @@ SOFTWARE
 
 ---
 
+## `20` — OFFICIAL NEXTLIFE LINKS
+
+<p align="center">
+  <strong>THE NEXTLIFE ECOSYSTEM</strong><br>
+  <sub>Alle offiziellen Plattformen, Services und technischen Systeme auf einen Blick.</sub>
+</p>
+
+### 🌐 NextLife
+
+- **[NextLife | The Official Page](https://nextlife.wonderlife-network.eu/)**  
+  Die offizielle NextLife Roleplay Website.
+
+- **[NextLife Records | The Official Page](https://music.nextlife.wonderlife-network.eu/)**  
+  Die offizielle Musikplattform von NextLife Records.
+
+- **[NextLife Forum | The Official Page](https://forum.nextlife.wonderlife-network.eu/)**  
+  Das offizielle NextLife Forum für Community, Austausch und Support.
+
+### 💻 Development & Services
+
+- **[NextLife GitHub | The Official Page](https://development.nextlife.wonderlife-network.eu/)**  
+  Die offizielle NextLife Development Plattform für Projekte, Entwicklung und technische Dokumentation.
+
+- **[NextLife Merch | The Official Page](https://www.getshirts.de/index.php?page=shop&sid=nextlife-roleplay)**  
+  Der offizielle NextLife Merch-Shop.
+
+- **[NextLife System Control | The Official Page](https://91.238.123.50:3001/status/nextlife)**  
+  Das offizielle NextLife System-Control- und Status-Dashboard.
+
+### 🎮 Community
+
+- **[NextLife | The Official Twitch Page](https://www.twitch.tv/nextlife_roleplay)**  
+  Der offizielle NextLife Twitch-Kanal für Streams und Live-Content.
+
+```text
+NEXTLIFE
+│
+├── 🌐 OFFICIAL WEBSITE
+│   └── nextlife.wonderlife-network.eu
+│
+├── 🎵 NEXTLIFE RECORDS
+│   └── music.nextlife.wonderlife-network.eu
+│
+├── 💬 NEXTLIFE FORUM
+│   └── forum.nextlife.wonderlife-network.eu
+│
+├── 💻 NEXTLIFE DEVELOPMENT
+│   └── development.nextlife.wonderlife-network.eu
+│
+├── 👕 NEXTLIFE MERCH
+│   └── getshirts.de
+│
+├── 🎮 NEXTLIFE TWITCH
+│   └── twitch.tv/nextlife_roleplay
+│
+└── 📊 SYSTEM CONTROL
+    └── 91.238.123.50:3001/status/nextlife
+```
+
+> **ONE ECOSYSTEM. ONE IDENTITY. ONE NEXTLIFE.**
+
+---
+
 ## `19` — NEXTLIFE DEVELOPMENT
 
 ```text
