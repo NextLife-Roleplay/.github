@@ -1,10 +1,10 @@
 # NEXTLIFE DEVELOPMENT
 
 <p align="center">
-  <img src="https://img.shields.io/badge/NEXTLIFE-DEVELOPMENT-8A2BE2?style=for-the-badge&logo=github&logoColor=white">
-  <img src="https://img.shields.io/badge/STATUS-ACTIVE-00C853?style=for-the-badge">
-  <img src="https://img.shields.io/badge/ENGINEERING-SYSTEMS-6C63FF?style=for-the-badge">
-  <img src="https://img.shields.io/badge/FOCUS-DEVELOPMENT-9C27B0?style=for-the-badge">
+  <img src="https://img.shields.io/badge/NEXTLIFE-DEVELOPMENT-8A2BE2?style=for-the-badge&logo=github&logoColor=white" alt="NextLife Development">
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-00C853?style=for-the-badge" alt="Status">
+  <img src="https://img.shields.io/badge/FIVEM-DEVELOPMENT-6A00FF?style=for-the-badge" alt="FiveM Development">
+  <img src="https://img.shields.io/badge/SYSTEMS-ENGINEERING-9B4DFF?style=for-the-badge" alt="Systems Engineering">
 </p>
 
 <p align="center">
@@ -12,46 +12,50 @@
 </p>
 
 <p align="center">
-  <sub>Designing, developing and maintaining scalable digital systems.</sub>
+  <sub>Die technische Entwicklung hinter NextLife Roleplay.</sub>
 </p>
 
 ---
 
-## `01` — DEVELOPMENT
+## `// NEXTLIFE DEVELOPMENT`
 
-**NextLife Development** is the engineering division behind the technical ecosystem of NextLife.
+**NextLife Development** ist die technische Entwicklungsabteilung hinter dem NextLife-Ökosystem.
 
-We design and build software, game systems, web applications, APIs, automation, infrastructure and developer tooling.
-
-Our development process focuses on:
+Wir entwickeln eigene **FiveM-Systeme, Webanwendungen, APIs, Discord-Integrationen, Datenbanklösungen, Automatisierungen und Server-Infrastruktur**.
 
 ```text
-ARCHITECTURE
-     ↓
-IMPLEMENTATION
-     ↓
-TESTING
-     ↓
-SECURITY
-     ↓
-OPTIMIZATION
-     ↓
-DEPLOYMENT
-     ↓
-MONITORING
-     ↓
-ITERATION
+                    NEXTLIFE ROLEPLAY
+                           │
+                           ▼
+                  NEXTLIFE DEVELOPMENT
+                           │
+        ┌──────────────────┼──────────────────┐
+        │                  │                  │
+        ▼                  ▼                  ▼
+      FIVEM               WEB             DISCORD
+        │                  │                  │
+        └──────────────────┼──────────────────┘
+                           │
+                           ▼
+                    BACKEND / APIs
+                           │
+                           ▼
+                       DATABASE
+                           │
+                           ▼
+                    INFRASTRUCTURE
+                           │
+                           ▼
+                        SECURITY
 ```
 
-The goal is not simply to make software work.
-
-The goal is to make software **maintainable, reliable, secure and scalable**.
+> **ENGINEER THE SYSTEM. BUILD THE EXPERIENCE.**
 
 ---
 
-## `02` — ENGINEERING
+## `01` — ENGINEERING
 
-Our engineering work is built around several core areas.
+Unsere Entwicklung konzentriert sich auf drei technische Kernbereiche.
 
 <table>
 <tr>
@@ -59,47 +63,45 @@ Our engineering work is built around several core areas.
 
 ### SOFTWARE
 
-Application development, backend systems and developer tooling.
+Application Development, Backend-Systeme und Developer Tooling.
 
-* JavaScript
-* TypeScript
-* Python
-* Node.js
-* REST APIs
-* WebSockets
-* Automation
+- JavaScript
+- TypeScript
+- Python
+- Node.js
+- REST APIs
+- WebSockets
+- Automation
 
 </td>
-
 <td width="33%" valign="top">
 
 ### GAME SYSTEMS
 
-Server-side systems and resources for modern FiveM environments.
+Serverseitige Systeme und Resources für moderne FiveM-Umgebungen.
 
-* Lua
-* FiveM
-* ESX
-* QBCore
-* NUI
-* Server Architecture
-* Resource Development
+- Lua
+- FiveM
+- ESX
+- QBCore
+- NUI
+- Server Architecture
+- Resource Development
 
 </td>
-
 <td width="33%" valign="top">
 
 ### INFRASTRUCTURE
 
-The infrastructure required to operate reliable systems.
+Technische Infrastruktur für stabile und zuverlässige Systeme.
 
-* Linux
-* MySQL
-* MariaDB
-* Git
-* GitHub
-* CI/CD
-* Monitoring
+- Linux
+- MySQL
+- MariaDB
+- Git
+- GitHub
+- CI/CD
+- Monitoring
 
 </td>
 </tr>
@@ -107,9 +109,9 @@ The infrastructure required to operate reliable systems.
 
 ---
 
-## `03` — SYSTEM ARCHITECTURE
+## `02` — SYSTEM ARCHITECTURE
 
-We design systems as independent, maintainable components rather than isolated scripts.
+Wir entwickeln Systeme als **modulare, wartbare Komponenten** statt als isolierte Scripts.
 
 ```text
                          ┌───────────────────┐
@@ -137,28 +139,193 @@ We design systems as independent, maintainable components rather than isolated s
                          └───────────────────┘
 ```
 
-### Design principles
+### Architecture Principles
 
-**Modularity**
-Systems are separated into logical components.
-
-**Separation of concerns**
-Each component has a defined responsibility.
-
-**Server authority**
-Critical operations are validated server-side.
-
-**Scalability**
-Systems are designed to grow with their requirements.
-
-**Maintainability**
-Code should remain understandable months after implementation.
+| Prinzip | Bedeutung |
+|---|---|
+| **Modularity** | Systeme werden in logische Komponenten aufgeteilt. |
+| **Separation of Concerns** | Jede Komponente besitzt eine definierte Verantwortung. |
+| **Server Authority** | Kritische Operationen werden serverseitig validiert. |
+| **Scalability** | Systeme werden für wachsende Anforderungen ausgelegt. |
+| **Maintainability** | Code bleibt langfristig verständlich und erweiterbar. |
 
 ---
 
-## `04` — SECURITY
+## `03` — FIVEM ENGINEERING
 
-Security is treated as an architectural requirement.
+FiveM Development ist ein zentraler Bestandteil von NextLife Development.
+
+### Frameworks
+
+```text
+Lua
+│
+├── ESX
+├── QBCore
+└── Custom Systems
+```
+
+### Technologies
+
+```text
+FiveM
+Lua
+NUI
+JavaScript
+HTML
+CSS
+MySQL
+MariaDB
+```
+
+### Development Areas
+
+```text
+GAMEPLAY
+SYSTEMS
+ECONOMY
+UI / NUI
+ADMINISTRATION
+JOBS
+VEHICLES
+INVENTORY
+SECURITY
+ANTI-CHEAT
+DATABASE
+PERFORMANCE
+```
+
+---
+
+## `04` — CURRENT SYSTEMS
+
+Unter NextLife Development entstehen und wachsen eigene Systeme für das NextLife-Ökosystem.
+
+```text
+┌────────────────────────────────────────────┐
+│              NEXTLIFE SYSTEMS              │
+├────────────────────────────────────────────┤
+│                                            │
+│  Geldwäsche System                         │
+│  Marriage System                           │
+│  Inventory System                          │
+│  Report System                             │
+│  Radio System                              │
+│  Schrottplatz System                       │
+│  HUD System                                │
+│  Anti-Cheat System                         │
+│  Garage System                             │
+│  Fishing System                            │
+│                                            │
+└────────────────────────────────────────────┘
+```
+
+Die Systeme verbinden **Serverlogik, UI, Datenbank, Security und Gameplay** zu eigenständigen technischen Komponenten.
+
+---
+
+## `05` — NUI & WEB
+
+Moderne Systeme benötigen nicht nur funktionierende Backend-Logik, sondern auch eine klare Benutzeroberfläche.
+
+```text
+                 USER INTERFACE
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+             NUI              CLIENT
+              │                 │
+              └────────┬────────┘
+                       ▼
+                    SERVER
+                       │
+                       ▼
+                   DATABASE
+```
+
+### Web Stack
+
+```text
+HTML
+CSS
+JavaScript
+TypeScript
+Node.js
+REST APIs
+WebSockets
+```
+
+### Applications
+
+```text
+TubeApp
+MusicApp
+Web Applications
+Administration Interfaces
+Developer Dashboards
+```
+
+---
+
+## `06` — DISCORD & INTEGRATIONS
+
+Discord ist ein Bestandteil der technischen NextLife-Infrastruktur.
+
+```text
+DISCORD
+│
+├── Bots
+├── Notifications
+├── Administration
+├── Logging
+├── GitHub Integration
+├── Server Monitoring
+├── Automation
+└── External APIs
+```
+
+Systeme werden miteinander verbunden:
+
+```text
+FiveM
+  │
+  ├──────────────► Discord
+  │
+  ├──────────────► Web
+  │
+  ├──────────────► API
+  │
+  └──────────────► Database
+```
+
+---
+
+## `07` — DATABASE ENGINEERING
+
+Datenbanken bilden einen zentralen Bestandteil unserer Systemarchitektur.
+
+```text
+MySQL
+MariaDB
+PostgreSQL
+Redis
+```
+
+### Focus
+
+- Query Optimization
+- Datenbankstruktur
+- Indexing
+- Relationen
+- Performance
+- sichere Datenverarbeitung
+- skalierbare Datenmodelle
+
+---
+
+## `08` — SECURITY ENGINEERING
+
+Security wird als **architektonische Anforderung** behandelt.
 
 ```text
 CLIENT REQUEST
@@ -177,29 +344,27 @@ CLIENT REQUEST
 └───────────┬───────────┘
             │
             ▼
-       DATABASE
+        DATABASE
 ```
 
-We avoid unnecessary trust boundaries and validate sensitive operations where they actually matter.
+### Security Focus
 
-### Security focus
+- Server-side validation
+- Permission systems
+- Event validation
+- Authentication
+- Access control
+- Secure APIs
+- Exploit prevention
+- Infrastructure security
 
-* Server-side validation
-* Permission systems
-* Event validation
-* Authentication
-* Access control
-* Secure APIs
-* Exploit prevention
-* Infrastructure security
+> **NEVER TRUST THE CLIENT.**
 
 ---
 
-## `05` — PERFORMANCE
+## `09` — PERFORMANCE ENGINEERING
 
-Performance is considered during implementation — not after production problems occur.
-
-We optimize:
+Performance wird bereits während der Entwicklung berücksichtigt.
 
 ```text
 RESOURCE USAGE
@@ -211,36 +376,52 @@ RESOURCE USAGE
       └── EVENT LOAD
 ```
 
-### Performance engineering
+### Performance Focus
 
-* Efficient execution loops
-* Optimized event handling
-* Database optimization
-* Query optimization
-* Resource profiling
-* Memory-conscious systems
-* Minimal unnecessary processing
-* Scalable architecture
+- Efficient execution loops
+- Optimized event handling
+- Database optimization
+- Query optimization
+- Resource profiling
+- Memory-conscious systems
+- Minimal unnecessary processing
+- Scalable architecture
 
 ---
 
-## `06` — DEVELOPMENT STACK
+## `10` — TECHNOLOGY STACK
 
 ### Languages
 
 ```text
-JavaScript     TypeScript
-Python         Lua
-SQL            Bash
-HTML           CSS
+JavaScript
+TypeScript
+Python
+Lua
+SQL
+Bash
+HTML
+CSS
 ```
 
-### Runtime & Backend
+### Backend
 
 ```text
-Node.js        REST
-WebSockets     APIs
-Microservices  Automation
+Node.js
+REST APIs
+WebSockets
+Microservices
+Automation
+```
+
+### FiveM
+
+```text
+FiveM
+Lua
+ESX
+QBCore
+NUI
 ```
 
 ### Databases
@@ -276,7 +457,134 @@ lb-phone
 
 ---
 
-## `07` — DEVELOPMENT DOMAINS
+## `11` — DEVELOPMENT WORKFLOW
+
+Jedes Projekt durchläuft einen strukturierten Entwicklungsprozess.
+
+```text
+┌──────────────┐
+│ REQUIREMENTS │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ ARCHITECTURE │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ DEVELOPMENT  │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    TESTING   │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   SECURITY   │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ CODE REVIEW  │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│    BUILD     │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   RELEASE    │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│   MONITOR    │
+└──────┬───────┘
+       ↓
+┌──────────────┐
+│ OPTIMIZATION │
+└──────┬───────┘
+       │
+       └───────────────→ NEXT ITERATION
+```
+
+---
+
+## `12` — CODE QUALITY
+
+Wir entwickeln Code, der verstanden, getestet und erweitert werden kann.
+
+```text
+READABLE
+   +
+MODULAR
+   +
+TESTABLE
+   +
+SECURE
+   +
+PERFORMANT
+   +
+DOCUMENTED
+   =
+MAINTAINABLE
+```
+
+### Engineering Standards
+
+- Clean Code
+- Consistent structure
+- Clear naming
+- Modular systems
+- Defensive programming
+- Documentation
+- Version control
+- Code review
+- Automated workflows
+
+---
+
+## `13` — GITHUB DEVELOPMENT
+
+GitHub bildet einen zentralen Bestandteil unserer Entwicklungsumgebung.
+
+```text
+SOURCE CONTROL
+      │
+      ├── REPOSITORIES
+      ├── BRANCHES
+      ├── PULL REQUESTS
+      ├── ISSUES
+      ├── CODE REVIEWS
+      ├── RELEASES
+      ├── GITHUB ACTIONS
+      ├── CI/CD
+      ├── DOCUMENTATION
+      └── SECURITY
+```
+
+Unsere Entwicklungsprozesse sind auf **Nachvollziehbarkeit, Versionskontrolle und kontrollierte Releases** ausgelegt.
+
+---
+
+## `14` — INFRASTRUCTURE
+
+Software ist nur so zuverlässig wie die Infrastruktur, auf der sie läuft.
+
+```text
+LINUX
+ │
+ ├── SERVER MANAGEMENT
+ ├── SERVICE MANAGEMENT
+ ├── DEPLOYMENT
+ ├── DATABASES
+ ├── MONITORING
+ ├── LOGGING
+ └── SECURITY
+```
+
+Infrastructure wird als Teil des Produkts betrachtet — nicht als nachträgliche Ergänzung.
+
+---
+
+## `15` — DEVELOPMENT DOMAINS
 
 ```text
 NEXTLIFE DEVELOPMENT
@@ -321,183 +629,11 @@ NEXTLIFE DEVELOPMENT
 
 ---
 
-## `08` — CURRENT DEVELOPMENT
+## `16` — PROJECT PHILOSOPHY
 
-Development at NextLife covers a growing ecosystem of independent systems and applications.
+Wir entwickeln nicht einfach möglichst viele Projekte.
 
-### FiveM
-
-```text
-Geldwäsche System
-Marriage System
-Inventory System
-Report System
-Radio System
-Schrottplatz System
-HUD System
-Anti-Cheat System
-Garage System
-Fishing System
-```
-
-### Applications
-
-```text
-TubeApp
-MusicApp
-Web Applications
-Administration Interfaces
-Developer Dashboards
-```
-
-### Integrations
-
-```text
-Discord
-GitHub
-FiveM
-MySQL
-REST APIs
-External Services
-```
-
----
-
-## `09` — DEVELOPMENT WORKFLOW
-
-Every project follows a structured development lifecycle.
-
-```text
-┌──────────────┐
-│ REQUIREMENTS │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ ARCHITECTURE │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ DEVELOPMENT  │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│    TESTING   │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ SECURITY     │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ CODE REVIEW  │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│    BUILD     │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│   RELEASE    │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│   MONITOR    │
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│ OPTIMIZATION │
-└──────┬───────┘
-       │
-       └───────────────→ NEXT ITERATION
-```
-
----
-
-## `10` — CODE QUALITY
-
-We value code that can be understood, tested and extended.
-
-```text
-READABLE
-   +
-MODULAR
-   +
-TESTABLE
-   +
-SECURE
-   +
-PERFORMANT
-   +
-DOCUMENTED
-   =
-MAINTAINABLE
-```
-
-### Engineering standards
-
-* Clean Code
-* Consistent structure
-* Clear naming
-* Modular systems
-* Defensive programming
-* Documentation
-* Version control
-* Code review
-* Automated workflows
-
----
-
-## `11` — GITHUB
-
-GitHub is an essential part of our development infrastructure.
-
-We use GitHub for:
-
-```text
-SOURCE CONTROL
-REPOSITORIES
-BRANCHES
-PULL REQUESTS
-ISSUES
-CODE REVIEWS
-RELEASES
-GITHUB ACTIONS
-CI/CD
-DOCUMENTATION
-SECURITY
-```
-
-Our repositories are organized around maintainability, traceability and controlled development.
-
----
-
-## `12` — INFRASTRUCTURE
-
-Software is only as reliable as the infrastructure running it.
-
-Our infrastructure work includes:
-
-```text
-LINUX
-   │
-   ├── SERVER MANAGEMENT
-   ├── SERVICE MANAGEMENT
-   ├── DEPLOYMENT
-   ├── DATABASES
-   ├── MONITORING
-   ├── LOGGING
-   └── SECURITY
-```
-
-Infrastructure is treated as part of the product — not as an afterthought.
-
----
-
-## `13` — PROJECT PHILOSOPHY
-
-We don't build systems simply to increase the number of projects.
-
-We build systems because they solve problems.
+Wir entwickeln Systeme, die konkrete Probleme lösen.
 
 ```text
 PROBLEM
@@ -515,45 +651,81 @@ DEPLOY
 IMPROVE
 ```
 
-Every project should have a purpose.
+**Every project should have a purpose.**
 
-Every component should have a reason.
+**Every component should have a reason.**
 
-Every dependency should be intentional.
+**Every dependency should be intentional.**
 
 ---
 
-## `14` — VISION
+## `17` — THE NEXTLIFE ECOSYSTEM
 
-NextLife Development is building an ecosystem where:
+```text
+                         NEXTLIFE
+                            │
+              ┌─────────────┼─────────────┐
+              │             │             │
+              ▼             ▼             ▼
+            FIVEM          WEB         DISCORD
+              │             │             │
+              └─────────────┼─────────────┘
+                            │
+                            ▼
+                           APIs
+                            │
+                            ▼
+                         DATABASE
+                            │
+                            ▼
+                     INFRASTRUCTURE
+                            │
+                            ▼
+                         SECURITY
+                            │
+                            ▼
+                      DEVELOPMENT
+```
+
+**Connected systems. Shared infrastructure. One ecosystem.**
+
+---
+
+## `18` — VISION
+
+NextLife Development entwickelt die technische Grundlage für die nächste Generation des NextLife-Ökosystems.
 
 ```text
 SOFTWARE
-     │
-     ├──────────────┐
-     │              │
-     ▼              ▼
-   GAMING          WEB
-     │              │
-     └──────┬───────┘
-            ▼
-       INTEGRATIONS
-            │
-            ▼
-       INFRASTRUCTURE
-            │
-            ▼
-         SECURITY
-            │
-            ▼
+    │
+    ├──────────────┐
+    │              │
+    ▼              ▼
+  GAMING          WEB
+    │              │
+    └──────┬───────┘
+           ▼
+      INTEGRATIONS
+           │
+           ▼
+     INFRASTRUCTURE
+           │
+           ▼
+        SECURITY
+           │
+           ▼
         NEXTLIFE
 ```
 
-The long-term goal is to create **connected, maintainable and scalable digital systems** rather than isolated projects.
+> **BUILD WHAT DOESN'T EXIST.**
+>
+> **IMPROVE WHAT DOES.**
+>
+> **CREATE WHAT'S NEXT.**
 
 ---
 
-## `15` — NEXTLIFE DEVELOPMENT
+## `19` — NEXTLIFE DEVELOPMENT
 
 ```text
 ┌────────────────────────────────────────────────────┐
@@ -562,9 +734,11 @@ The long-term goal is to create **connected, maintainable and scalable digital s
 │                                                    │
 │        SOFTWARE  ·  SYSTEMS  ·  ENGINEERING        │
 │                                                    │
-│        GAME      ·  WEB      ·  INFRASTRUCTURE     │
+│        FIVEM  ·  WEB  ·  DISCORD                  │
 │                                                    │
-│        SECURITY  ·  AUTOMATION  ·  APIs            │
+│        DATABASE  ·  SECURITY  ·  INFRA             │
+│                                                    │
+│        ENGINEERED FOR NEXTLIFE                     │
 │                                                    │
 └────────────────────────────────────────────────────┘
 ```
@@ -574,7 +748,7 @@ The long-term goal is to create **connected, maintainable and scalable digital s
 </p>
 
 <p align="center">
-  <sub>NextLife Development · Software Engineering & Digital Systems</sub>
+  <sub>NextLife Development · Technical Engineering behind NextLife Roleplay</sub>
 </p>
 
 <p align="center">
