@@ -751,7 +751,7 @@ SOFTWARE
 - **[NextLife Merch | The Official Page](https://www.getshirts.de/index.php?page=shop&sid=nextlife-roleplay)**  
   Der offizielle NextLife Merch-Shop.
 
-- **[NextLife System Control | The Official Page](https://91.238.123.50:3001/status/nextlife)**  
+- **[NextLife System Control | The Official Page](http://91.238.123.50:3001/status/nextlife)**  
   Das offizielle NextLife System-Control- und Status-Dashboard.
 
 ### 🎮 Community
